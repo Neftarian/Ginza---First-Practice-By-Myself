@@ -1,0 +1,371 @@
+.Main-homepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YNqqRV9rrZF2vG9g/img-Yg22NkDlZNfBPE6V.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1.4;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-homepage {
+    position: relative;
+    bottom: 103.7px;
+    height: 150vh;
+  }
+}
+
+.Main-homepage-header {
+  font-size: 40px;
+  font-weight: lighter;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 60px;
+  margin-top: 150px;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-homepage-header {
+    margin-top: 250px;
+  }
+}
+
+.Main-homepage-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 178px;
+  margin-top: 15px;
+}
+
+.Main-homepage-links a {
+  color: white;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-homepage-links {
+    margin-top: 40px;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .Main-homepage-links .icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.Main-learnmore .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-learnmore .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-bottom: 40px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.Main-learnmore-image {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-learnmore-image {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.Main-learnmore-image img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Main-learnmore-header h2 {
+  margin-top: 50px;
+  padding: 20px 10px;
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-learnmore-header h2 {
+    font-size: 60px;
+    margin-top: 10px;
+  }
+}
+
+.Main-learnmore-paragraf p {
+  padding: 20px 10px;
+  line-height: 24.8px;
+}
+
+.Main-learnmore-button {
+  padding: 20px 10px;
+}
+
+.Main-info .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eee;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.Main-info-header {
+  padding: 45px 10px;
+}
+
+.Main-info-header h2 {
+  font-weight: lighter;
+  font-size: 32px;
+  font-family: "Caudex", serif;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-info-header h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .Main-info-first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .Main-info-first-image {
+    width: 100%;
+  }
+}
+
+.Main-info-first-image img {
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-info-first-image img {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+.Main-info-first-subheader {
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.Main-info-first-subheader h4 {
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: "Caudex", serif;
+}
+
+.Main-info-first-paragraf {
+  margin-top: 20px;
+}
+
+.Main-info-first-price {
+  margin-top: 20px;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: "Caudex", serif;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-info-second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .Main-info-second-image {
+    width: 100%;
+  }
+}
+
+.Main-info-second-image img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-info-second-image img {
+    margin-top: 0;
+    height: 400px;
+    width: 100%;
+  }
+}
+
+.Main-info-second-subheader {
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.Main-info-second-subheader h4 {
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: "Caudex", serif;
+}
+
+.Main-info-second-paragraf {
+  margin-top: 20px;
+}
+
+.Main-info-second-price {
+  margin-top: 20px;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: "Caudex", serif;
+}
+
+.Main-info-button {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-info-button {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-top: 70px;
+  }
+}
+
+.Main-info-button button {
+  background-color: transparent;
+}
+
+.Main-booking .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.Main-booking-header {
+  margin-top: 60px;
+}
+
+.Main-booking-header h2 {
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+.Main-booking-paragraf {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-booking-paragraf {
+    margin-top: 50px;
+  }
+}
+
+.Main-booking-button {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 480px) {
+  .Main-booking-button {
+    margin-top: 70px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,79 @@
+.Header {
+    @media only screen and (min-width: 480px) {
+        background-color: transparent;
+    }  
+
+    .container {
+        position: relative;
+        padding: 30px 16px;
+        background-color: black;
+        @media screen and (min-width: 480px) {
+            flex-direction: column;
+        }
+        
+    }
+    
+    &-logo {
+        a {
+            height: 40px;
+            z-index: 1;
+            position: relative;
+            img {
+                align-items: center;
+            }
+        }
+        
+    }
+
+    &-switch {
+      background-color: transparent;
+      margin-left: auto;
+      .icon {
+        color: white;
+        height: 24px;
+        width: 24px;
+      }
+      @media screen and (min-width: 480px) {
+          display: none;
+      }
+    }
+    
+    &-menu {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 85px;
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        transform: translateX(100%);
+        transition: .2s;
+        z-index: 1;
+        background-color: black;
+        font-family: "Roboto", sans-serif;
+        a {
+            margin: 10px 10px;
+            color: white;
+            &:hover {
+                text-decoration: underline;
+                text-underline-offset: 7px;
+            }
+        }
+        &-show {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        @media screen and (min-width: 480px) {
+            opacity: 1;
+            transform: translateX(0%);
+            background-color: transparent;
+            flex-direction: row;
+            margin-top: 50px;
+            left: auto;
+            right: auto;
+            top: auto;
+        }
+    }
+
+}

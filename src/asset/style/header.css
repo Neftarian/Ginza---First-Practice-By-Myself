@@ -1,0 +1,108 @@
+@media only screen and (min-width: 480px) {
+  .Header {
+    background-color: transparent;
+  }
+}
+
+.Header .container {
+  position: relative;
+  padding: 30px 16px;
+  background-color: black;
+}
+
+@media screen and (min-width: 480px) {
+  .Header .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.Header-logo a {
+  height: 40px;
+  z-index: 1;
+  position: relative;
+}
+
+.Header-logo a img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Header-switch {
+  background-color: transparent;
+  margin-left: auto;
+}
+
+.Header-switch .icon {
+  color: white;
+  height: 24px;
+  width: 24px;
+}
+
+@media screen and (min-width: 480px) {
+  .Header-switch {
+    display: none;
+  }
+}
+
+.Header-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 85px;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: .2s;
+  transition: .2s;
+  z-index: 1;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.Header-menu a {
+  margin: 10px 10px;
+  color: white;
+}
+
+.Header-menu a:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.Header-menu-show {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+@media screen and (min-width: 480px) {
+  .Header-menu {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    background-color: transparent;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 50px;
+    left: auto;
+    right: auto;
+    top: auto;
+  }
+}
+/*# sourceMappingURL=header.css.map */

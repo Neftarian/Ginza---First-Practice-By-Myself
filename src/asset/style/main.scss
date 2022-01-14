@@ -1,0 +1,271 @@
+.Main {
+
+    &-homepage {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        max-width: 100%;
+        background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YNqqRV9rrZF2vG9g/img-Yg22NkDlZNfBPE6V.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 1.4;
+        @media screen and (min-width: 480px) {
+            position: relative;
+            bottom: 103.7px;
+            height: 150vh;
+        }
+
+        &-header {
+            font-size: 40px;
+            font-weight: lighter;
+            display: flex;
+            align-items: center;
+            color: white;
+            flex-direction: column;
+            line-height: 60px;
+            margin-top: 150px;
+            @media screen and (min-width: 480px) {
+                margin-top: 250px;
+                
+            }
+        }
+
+        &-links {
+            display: flex;
+            justify-content: space-between;
+            width: 178px;
+            margin-top: 15px;
+            a {
+                color: white;
+            }
+            @media screen and (min-width: 480px) {
+                margin-top: 40px;
+                width: 250px;
+            }
+            .icon {
+                @media screen and (min-width: 480px) {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+
+    &-learnmore {
+        .container {
+            flex-direction: column;
+            align-items: flex-start;
+            padding-right: 20px;
+            padding-left: 20px;   
+            @media screen and (min-width: 480px) {
+                flex-direction: row;
+                padding-bottom: 40px;
+                justify-content: space-between;
+                align-items: center;
+            } 
+        }
+
+        &-image {
+            align-self: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            @media screen and (min-width: 480px) {
+                margin: 0;
+                width: 100%;
+            }
+            img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        &-header {
+            h2 {
+                margin-top: 50px;
+                padding: 20px 10px;
+                font-size: 32px;
+                font-weight: lighter;
+                @media screen and (min-width: 480px) {
+                    font-size: 60px;
+                    margin-top: 10px;
+                }
+            }
+        }
+        &-paragraf {
+            p {
+                padding: 20px 10px;
+                line-height: 24.8px;
+            }
+        }
+        
+        &-button {
+            padding: 20px 10px;
+        }
+    }
+
+    &-info {
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #eee;
+            padding-left: 60px;
+            padding-right: 60px;
+            width: 100%;
+            font-family: "Roboto", sans-serif;
+        }
+
+        &-header {
+            h2 {
+                font-weight: lighter;
+                font-size: 32px;
+                font-family: "Caudex", serif;
+                @media screen and (min-width: 480px) {
+                    font-size: 60px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+            }
+            padding: 45px 10px;
+            
+        }
+
+        &-first {
+            @media screen and (min-width: 480px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-left: 50px;
+                margin-right: 50px;
+                width: 50%;
+            }
+            &-image {
+                @media screen and (min-width: 480px) {
+                    width: 100%;
+                }
+                img {
+                    width: 100%;
+                    height: 180px;
+                    object-fit: cover;
+                    @media screen and (min-width: 480px) {
+                        height: 400px;
+                        width: 100%;
+                    }
+                }
+            }
+            &-subheader {
+                margin-right: auto;
+                margin-top: 20px;
+                h4 {
+                    font-weight: lighter;
+                    font-size: 20px;
+                    font-family: "Caudex", serif;
+                }
+            }
+            &-paragraf {
+                margin-top: 20px;
+            }
+            &-price {
+                margin-top: 20px;
+                margin-right: auto;
+                font-size: 20px;
+                font-family: "Caudex", serif;
+            }
+        }
+
+        &-second {
+            @media screen and (min-width: 480px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 50px;
+                margin-left: 50px;
+                width: 50%;
+            }
+           
+            &-image {
+                @media screen and (min-width: 480px) {
+                    width: 100%;
+                }
+                img {
+                    width: 100%;
+                    height: 150px;
+                    object-fit: cover;
+                    margin-top: 30px;
+                    @media screen and (min-width: 480px) {
+                        margin-top: 0;
+                        height: 400px;
+                        width: 100%;
+                        
+                    }
+                }
+            }
+            &-subheader {
+                margin-right: auto;
+                margin-top: 20px;
+                h4 {
+                    font-weight: lighter;
+                    font-size: 20px;
+                    font-family: "Caudex", serif;
+                }
+            }
+            &-paragraf {
+                margin-top: 20px;
+            }
+            &-price {
+                margin-top: 20px;
+                margin-right: auto;
+                font-size: 20px;
+                font-family: "Caudex", serif;
+            }
+        }
+
+        &-button {
+            align-self: flex-start;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            @media screen and (min-width: 480px) {
+                align-self: center;
+                margin-top: 70px;
+            }
+            button {
+                background-color: transparent;
+            }
+        }
+    }
+
+    &-booking {
+        .container {
+            flex-direction: column;
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+
+        &-header {
+            margin-top: 60px;
+            h2 {
+                font-weight: lighter;
+                font-size: 32px;
+            }
+        }
+
+        &-paragraf {
+            margin-top: 20px;
+            text-align: center;
+            @media screen and (min-width: 480px) {
+                margin-top: 50px;
+            }
+        }
+
+        &-button {
+            margin-top: 50px;
+            margin-bottom: 60px;
+            @media screen and (min-width: 480px) {
+                margin-top: 70px;
+            }
+        }
+    }
+}
